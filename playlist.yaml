@@ -1,0 +1,5 @@
+enabled: true
+playlist:
+  enable_playlist: true
+  enable_player: true
+  enable_video: true
