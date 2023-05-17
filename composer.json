@@ -1,7 +1,7 @@
 {
   "name": "essboyer/playlist",
   "type": "grav-plugin",
-  "description": "A media player with playlist",
+  "description": "A media player with playlist - builds albums from directories",
   "keywords": ["plugin"],
   "homepage": "https://github.com/essboyer/grav-plugin-playlist",
   "license": "MIT",
@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": ">=7.1.3",
-    "mhor/php-mediainfo": "^4.1"
+    "james-heinrich/getid3": "^1.9"
   },
   "autoload": {
     "psr-4": {

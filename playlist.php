@@ -1,5 +1,5 @@
 <?php
-namespace Grav\Plugin;
+namespace Grav\Plugin\Playlist;
 
 use Composer\Autoload\ClassLoader;
 use Grav\Common\Plugin;
@@ -57,6 +57,7 @@ class PlaylistPlugin extends Plugin
 
         if ($this->config->get('plugins.playlist.enabled')) {
             require __DIR__.'/classes/Playlist.php';
+            require __DIR__.'/vendor/mhor/php-mediainfo/src/MediaInfo.php';
         }
 
         $this->playlist = new Playlist();
