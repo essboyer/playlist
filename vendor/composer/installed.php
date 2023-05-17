@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'essboyer/playlist',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '393332bad7b951cbd63549bd505926e9cec5d789',
         'type' => 'grav-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,11 +11,20 @@
     ),
     'versions' => array(
         'essboyer/playlist' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '393332bad7b951cbd63549bd505926e9cec5d789',
             'type' => 'grav-plugin',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'james-heinrich/getid3' => array(
+            'pretty_version' => 'v1.9.22',
+            'version' => '1.9.22.0',
+            'reference' => '45f20faa0f0a24489740392c5b512ddcc36deccd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../james-heinrich/getid3',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

@@ -2,7 +2,9 @@
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of the plugin.**
 
-The **Playlist** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). A media player with playlist
+The **Playlist** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). A media player with playlist. It builds a simple and cross-browser media player with a built in playlist. It supports all the major formats, displays album art, allows shares of songs and more!
+
+A Playlist is created with files placed in the `media directory` of a `Page` with special type `Playlist`
 
 ## Installation
 
@@ -47,8 +49,8 @@ Note that if you use the Admin Plugin, a file with your configuration named play
 **Describe how to use the plugin.**
 
 ## Credits
-
-**Did you incorporate third-party code? Want to thank somebody?**
+This plugin was created using [Music Card] and [Youtube] plugins for reference.
+Information on the media items is gathered by using [MediaInfo]
 
 ## To Do
 
